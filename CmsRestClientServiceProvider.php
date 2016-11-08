@@ -13,6 +13,7 @@ namespace Glavweb\CmsRestClientSilexProvider;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
+use Glavweb\CmsRestClient\CmsRestClient;
 
 /**
  * CmsRestClientServiceProvider
