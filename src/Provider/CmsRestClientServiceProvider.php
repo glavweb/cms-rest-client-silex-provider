@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the GLAVWEB.cms Rest Client package.
+ * This file is part of the GLAVWEB.cms SilexCmsRestClient package.
  *
  * (c) Andrey Nilov <nilov@glavweb.ru>
  *
@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Glavweb\CmsRestClientSilexProvider;
+namespace Glavweb\SilexCmsRestClient\Provider;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
@@ -18,7 +18,7 @@ use Glavweb\CmsRestClient\CmsRestClient;
 /**
  * CmsRestClientServiceProvider
  *
- * @package Glavweb\CmsRestClientSilexProvider
+ * @package Glavweb\SilexCmsRestClient
  * @author Andrey Nilov <nilov@glavweb.ru>
  */
 class CmsRestClientServiceProvider implements ServiceProviderInterface

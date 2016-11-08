@@ -1,6 +1,6 @@
 {
-    "name": "glavweb/cms-rest-client-silex-provider",
-    "description": "GLAVWEB.cms Rest Client Silex Provider",
+    "name": "glavweb/silex-cms-rest-client",
+    "description": "GLAVWEB.cms SilexCmsRestClient package",
     "authors": [
         {
             "name": "nilov",
@@ -9,7 +9,7 @@
         },
         {
             "name": "GLAVWEB Community",
-            "homepage": "https://github.com/glavweb/cms-rest-client-silex-provider/contributors"
+            "homepage": "https://github.com/glavweb/silex-cms-rest-client/contributors"
         }
     ],
     "require": {
@@ -18,6 +18,6 @@
         "glavweb/cms-rest-client": "~0.1"
     },
     "autoload": {
-        "psr-4": { "Glavweb\\CmsRestClientSilexProvider\\": "" }
+        "psr-4": { "Glavweb\\SilexCmsRestClient\\": "src/" }
     }
 }
